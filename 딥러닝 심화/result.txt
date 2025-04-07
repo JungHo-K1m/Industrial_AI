@@ -1,0 +1,53 @@
+100%|██████████| 9.91M/9.91M [00:00<00:00, 41.6MB/s]
+100%|██████████| 28.9k/28.9k [00:00<00:00, 1.21MB/s]
+100%|██████████| 1.65M/1.65M [00:00<00:00, 10.3MB/s]
+100%|██████████| 4.54k/4.54k [00:00<00:00, 7.83MB/s]
+실험 진행: Activation: relu, BatchNorm: False, Init: kaiming
+테스트 정확도: 93.39%
+--------------------------------------------------
+실험 진행: Activation: relu, BatchNorm: False, Init: xavier
+테스트 정확도: 94.14%
+--------------------------------------------------
+실험 진행: Activation: relu, BatchNorm: False, Init: normal
+테스트 정확도: 89.52%
+--------------------------------------------------
+실험 진행: Activation: relu, BatchNorm: True, Init: kaiming
+테스트 정확도: 94.92%
+--------------------------------------------------
+실험 진행: Activation: relu, BatchNorm: True, Init: xavier
+테스트 정확도: 95.01%
+--------------------------------------------------
+실험 진행: Activation: relu, BatchNorm: True, Init: normal
+테스트 정확도: 95.14%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: False, Init: kaiming
+테스트 정확도: 91.58%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: False, Init: xavier
+테스트 정확도: 90.76%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: False, Init: normal
+테스트 정확도: 69.78%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: True, Init: kaiming
+테스트 정확도: 92.39%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: True, Init: xavier
+테스트 정확도: 92.51%
+--------------------------------------------------
+실험 진행: Activation: sigmoid, BatchNorm: True, Init: normal
+테스트 정확도: 93.23%
+--------------------------------------------------
+전체 실험 결과:
+Activation: relu, BatchNorm: False, Init: kaiming --> 93.39%
+Activation: relu, BatchNorm: False, Init: xavier --> 94.14%
+Activation: relu, BatchNorm: False, Init: normal --> 89.52%
+Activation: relu, BatchNorm: True, Init: kaiming --> 94.92%
+Activation: relu, BatchNorm: True, Init: xavier --> 95.01%
+Activation: relu, BatchNorm: True, Init: normal --> 95.14%
+Activation: sigmoid, BatchNorm: False, Init: kaiming --> 91.58%
+Activation: sigmoid, BatchNorm: False, Init: xavier --> 90.76%
+Activation: sigmoid, BatchNorm: False, Init: normal --> 69.78%
+Activation: sigmoid, BatchNorm: True, Init: kaiming --> 92.39%
+Activation: sigmoid, BatchNorm: True, Init: xavier --> 92.51%
+Activation: sigmoid, BatchNorm: True, Init: normal --> 93.23%
